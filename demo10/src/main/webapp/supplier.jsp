@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Supplier Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Supplier Form</h1>
+<h1>Thêm nhà cung cấp</h1>
 <form action="supplier-servlet" method="post">
     <label for="displayName">Display Name:</label><br>
     <input type="text" id="displayName" name="displayName" required><br>

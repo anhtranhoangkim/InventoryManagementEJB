@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Error</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <h1>An error occurred while processing your request.</h1>

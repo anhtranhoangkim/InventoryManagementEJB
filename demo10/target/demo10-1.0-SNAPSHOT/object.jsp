@@ -6,6 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Object Form</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <h1>Object Form</h1>

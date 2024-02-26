@@ -39,6 +39,7 @@ public class LoginServlet extends HttpServlet {
             throw new ServletException("Invalid username or password");
         } else {
             userSessionBean.login(username); // Set the username in the session bean and mark as logged in
+            request.getSession().setAttribute("username", username); // Store the username in the session
             response.sendRedirect("home.jsp");
         }
     }
